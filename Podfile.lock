@@ -1,0 +1,7 @@
+PODS:
+  - TouchJSON (1.0)
+  - cocos2d (2.0.rc1):
+    - TouchJSON
+
+DEPENDENCIES:
+  - cocos2d

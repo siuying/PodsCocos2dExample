@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40589FB1DA524CB08EF77AAD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E125A5221047BAB340AA35 /* libPods.a */; };
+		54441DA41558D69600939D19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54441DA31558D69600939D19 /* UIKit.framework */; };
+		54441DA61558D69600939D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54441DA51558D69600939D19 /* Foundation.framework */; };
+		54441DA81558D69600939D19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54441DA71558D69600939D19 /* CoreGraphics.framework */; };
+		54441DAE1558D69600939D19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54441DAC1558D69600939D19 /* InfoPlist.strings */; };
+		54441DB01558D69600939D19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54441DAF1558D69600939D19 /* main.m */; };
+		54441DB41558D69600939D19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54441DB31558D69600939D19 /* AppDelegate.m */; };
+		54441DCA1558DA0400939D19 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54441DC91558DA0400939D19 /* HelloWorldLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A34B0E6CA7D4982A1918A6A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		54441D9F1558D69600939D19 /* PodsCocos2dExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodsCocos2dExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54441DA31558D69600939D19 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54441DA51558D69600939D19 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54441DA71558D69600939D19 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54441DAB1558D69600939D19 /* PodsCocos2dExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PodsCocos2dExample-Info.plist"; sourceTree = "<group>"; };
+		54441DAD1558D69600939D19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54441DAF1558D69600939D19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54441DB11558D69600939D19 /* PodsCocos2dExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PodsCocos2dExample-Prefix.pch"; sourceTree = "<group>"; };
+		54441DB21558D69600939D19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54441DB31558D69600939D19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54441DC81558DA0400939D19 /* HelloWorldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
+		54441DC91558DA0400939D19 /* HelloWorldLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
+		C0E125A5221047BAB340AA35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54441D9C1558D69600939D19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54441DA41558D69600939D19 /* UIKit.framework in Frameworks */,
+				54441DA61558D69600939D19 /* Foundation.framework in Frameworks */,
+				54441DA81558D69600939D19 /* CoreGraphics.framework in Frameworks */,
+				40589FB1DA524CB08EF77AAD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54441D941558D69600939D19 = {
+			isa = PBXGroup;
+			children = (
+				54441DA91558D69600939D19 /* PodsCocos2dExample */,
+				54441DA21558D69600939D19 /* Frameworks */,
+				54441DA01558D69600939D19 /* Products */,
+				2A34B0E6CA7D4982A1918A6A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		54441DA01558D69600939D19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54441D9F1558D69600939D19 /* PodsCocos2dExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54441DA21558D69600939D19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54441DA31558D69600939D19 /* UIKit.framework */,
+				54441DA51558D69600939D19 /* Foundation.framework */,
+				54441DA71558D69600939D19 /* CoreGraphics.framework */,
+				C0E125A5221047BAB340AA35 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54441DA91558D69600939D19 /* PodsCocos2dExample */ = {
+			isa = PBXGroup;
+			children = (
+				54441DB21558D69600939D19 /* AppDelegate.h */,
+				54441DB31558D69600939D19 /* AppDelegate.m */,
+				54441DC81558DA0400939D19 /* HelloWorldLayer.h */,
+				54441DC91558DA0400939D19 /* HelloWorldLayer.m */,
+				54441DAA1558D69600939D19 /* Supporting Files */,
+			);
+			path = PodsCocos2dExample;
+			sourceTree = "<group>";
+		};
+		54441DAA1558D69600939D19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54441DAB1558D69600939D19 /* PodsCocos2dExample-Info.plist */,
+				54441DAC1558D69600939D19 /* InfoPlist.strings */,
+				54441DAF1558D69600939D19 /* main.m */,
+				54441DB11558D69600939D19 /* PodsCocos2dExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54441D9E1558D69600939D19 /* PodsCocos2dExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54441DB71558D69600939D19 /* Build configuration list for PBXNativeTarget "PodsCocos2dExample" */;
+			buildPhases = (
+				54441D9B1558D69600939D19 /* Sources */,
+				54441D9C1558D69600939D19 /* Frameworks */,
+				54441D9D1558D69600939D19 /* Resources */,
+				0F4A2CBF413249DC9876DDD5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodsCocos2dExample;
+			productName = PodsCocos2dExample;
+			productReference = 54441D9F1558D69600939D19 /* PodsCocos2dExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54441D961558D69600939D19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Ignition;
+			};
+			buildConfigurationList = 54441D991558D69600939D19 /* Build configuration list for PBXProject "PodsCocos2dExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54441D941558D69600939D19;
+			productRefGroup = 54441DA01558D69600939D19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54441D9E1558D69600939D19 /* PodsCocos2dExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54441D9D1558D69600939D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54441DAE1558D69600939D19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F4A2CBF413249DC9876DDD5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54441D9B1558D69600939D19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54441DB01558D69600939D19 /* main.m in Sources */,
+				54441DB41558D69600939D19 /* AppDelegate.m in Sources */,
+				54441DCA1558DA0400939D19 /* HelloWorldLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54441DAC1558D69600939D19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54441DAD1558D69600939D19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54441DB51558D69600939D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54441DB61558D69600939D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54441DB81558D69600939D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A34B0E6CA7D4982A1918A6A /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PodsCocos2dExample/PodsCocos2dExample-Prefix.pch";
+				INFOPLIST_FILE = "PodsCocos2dExample/PodsCocos2dExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54441DB91558D69600939D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A34B0E6CA7D4982A1918A6A /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PodsCocos2dExample/PodsCocos2dExample-Prefix.pch";
+				INFOPLIST_FILE = "PodsCocos2dExample/PodsCocos2dExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54441D991558D69600939D19 /* Build configuration list for PBXProject "PodsCocos2dExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54441DB51558D69600939D19 /* Debug */,
+				54441DB61558D69600939D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54441DB71558D69600939D19 /* Build configuration list for PBXNativeTarget "PodsCocos2dExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54441DB81558D69600939D19 /* Debug */,
+				54441DB91558D69600939D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54441D961558D69600939D19 /* Project object */;
+}
